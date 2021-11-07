@@ -1,14 +1,11 @@
 const express = require('express')
+const dotenv = require('dotenv')
 const cors = require('cors')
 const app = express();
-const PORT = process.env.PORT || 3005
-
-app.use(cors());
-
-console.log(1234567)
-
-//route
 const userRoute = require('./routes/userRoute')
+dotenv.config()
+app.use(cors());
+const PORT = process.env.PORT || 3000
 
 app.use(express.json({ extend:true}));
 app.get('/', (_,res) => res.send('API running'));
