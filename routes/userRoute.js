@@ -7,6 +7,7 @@ router.get('/', (_,res) => {
       data: [
         {
           "id": "1",
+          "date": "11/11/2021",
           "title": "Blog Post",
           "category": "Architecture",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -14,6 +15,7 @@ router.get('/', (_,res) => {
         },
         {
           "id": "2",
+          "date": "11/11/2021",
           "title": "Blog Post",
           "category": "Nature",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -21,6 +23,7 @@ router.get('/', (_,res) => {
         },
         {
           "id": "3",
+          "date": "11/11/2021",
           "title": "Blog Post",
           "category": "Technology",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -28,6 +31,7 @@ router.get('/', (_,res) => {
         },
         {
           "id": "4",
+          "date": "11/11/2021",
           "title": "Blog Post",
           "category": "Architecture",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -35,6 +39,7 @@ router.get('/', (_,res) => {
         },
         {
           "id": "5",
+          "date": "11/11/2021",
           "title": "Blog Post",
           "category": "Nature",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -42,6 +47,7 @@ router.get('/', (_,res) => {
         },
         {
           "id": "6",
+          "date": "11/11/2021",
           "title": "Blog Post",
           "category": "Technology",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
