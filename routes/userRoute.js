@@ -6,14 +6,48 @@ router.get('/', (_,res) => {
     const result = {
       data: [
         {
-            id: 1,
-            name: 'tony'
+          "id": "1",
+          "title": "Blog Post",
+          "category": "Architecture",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "image": "https://placeimg.com/640/480/arch"
         },
         {
-            id:'2',
-            name: 'katie'
+          "id": "2",
+          "title": "Blog Post",
+          "category": "Nature",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "image": "https://placeimg.com/640/480/nature"
+        },
+        {
+          "id": "3",
+          "title": "Blog Post",
+          "category": "Technology",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "image": "https://placeimg.com/640/480/tech"
+        },
+        {
+          "id": "4",
+          "title": "Blog Post",
+          "category": "Architecture",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "image": "https://placeimg.com/640/480/arch"
+        },
+        {
+          "id": "5",
+          "title": "Blog Post",
+          "category": "Nature",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "image": "https://placeimg.com/640/480/nature"
+        },
+        {
+          "id": "6",
+          "title": "Blog Post",
+          "category": "Technology",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "image": "https://placeimg.com/640/480/tech"
         }
-    ],
+      ],
     
     page: 1,
     limit: 10,
